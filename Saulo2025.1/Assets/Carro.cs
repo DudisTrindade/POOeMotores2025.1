@@ -31,11 +31,33 @@ public class Carro
 
     public void AtribuirNumeroDeRodas(int numero_de_rodas)
     {
-        this.cor = cor;
+        this.numero_de_rodas = numero_de_rodas;
     }
-    
-    
-    
+
+    public int NumeroDeRodas()
+    {
+        return this.numero_de_rodas;
+    }
+
+    public void AtribuirPreco(float preco)
+    {
+        this.preco = preco;
+    }
+
+    public float Preco()
+    {
+        return this.preco;
+    }
+
+    public bool ComparePreco(Carro carro)
+    {
+        if (this.preco > carro.Preco())
+        {
+            return true;
+        }
+        return false;
+
+    }
     
 }
 
