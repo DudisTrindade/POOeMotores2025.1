@@ -2,12 +2,21 @@ using UnityEngine;
 
 public class Personagem : MonoBehaviour
 {
+    
+    
+    [ SerializeField ]
     private string nome;
+    [ SerializeField ]
     private string energia;
+    [ SerializeField ]
     private int forca_ataque;
+    [ SerializeField ]
     private int forca_do_pulo;
+    [ SerializeField ]
     private int velocidade;
+    [ SerializeField ]
     private int numero_de_pes;
+    [ SerializeField ]
     private int numero_de_maos;
     
     public void AtribuirNome(string nome)
