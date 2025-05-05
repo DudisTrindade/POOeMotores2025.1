@@ -84,29 +84,16 @@ public class Personagem : MonoBehaviour
     }
 
 
-    public void AtribuitNumero_de_pes(int i)
-    {
-        throw new System.NotImplementedException();
-    }
-
-    public void AtribuirVelocidade(int i)
-    {
-        throw new System.NotImplementedException();
-    }
-
-    public void AtribuitNumero_de_maos(int i)
-    {
-        throw new System.NotImplementedException();
-    }
+ 
 
     public int Energia()
     {
-        throw new System.NotImplementedException();
+        return this.energia;
     }
 
     public string Nome()
     {
-        throw new System.NotImplementedException();
+        return this.nome;
     }
 }
     
