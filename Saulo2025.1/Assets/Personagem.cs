@@ -53,7 +53,7 @@ public class Personagem : MonoBehaviour
         return this.forca_do_pulo;
     }
 
-    private int Atribuirvelocidade(int velocidade)
+    public int Atribuirvelocidade(int velocidade)
     {
         return this.velocidade = velocidade;
     }
@@ -63,7 +63,7 @@ public class Personagem : MonoBehaviour
         return this.velocidade;
     }
 
-    private void atribuirnumero_de_pes(int numero_de_pes)
+    public void Atribuirnumero_de_pes(int numero_de_pes)
     {
         this.numero_de_pes = numero_de_pes;
     }
@@ -73,7 +73,7 @@ public class Personagem : MonoBehaviour
         return this.numero_de_pes;
     }
 
-    private void Atribuirnumero_de_maos(int numero_de_maos)
+    public void Atribuirnumero_de_maos(int numero_de_maos)
     {
         this.numero_de_maos = numero_de_maos;
     }

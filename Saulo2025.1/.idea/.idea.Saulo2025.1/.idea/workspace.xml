@@ -15,6 +15,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@1c27dfa04d8a/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@087c6d6dbb7d/Shaders/2D/Sprite-Lit-Default.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -99,6 +100,8 @@
       <workItem from="1745860166502" duration="2587000" />
       <workItem from="1746036032527" duration="4551000" />
       <workItem from="1746468367471" duration="3380000" />
+      <workItem from="1746641226327" duration="202000" />
+      <workItem from="1746641453495" duration="3642000" />
     </task>
     <servers />
   </component>
