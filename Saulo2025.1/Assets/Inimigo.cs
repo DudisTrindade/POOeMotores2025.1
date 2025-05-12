@@ -55,26 +55,11 @@ public int DanoDoInimigo()
             dano = Forca_Ataque() + 5;
             break;
     }
-        
+
     // dano do ataque com a arma
-        
+
     return dano;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 void Start()
 {
         
