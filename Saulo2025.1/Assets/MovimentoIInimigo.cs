@@ -12,6 +12,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     private SphereCollider _sphereCollider;
 
+    public float distanciaMinima = 1.5f;
 
     void Start()
     {
