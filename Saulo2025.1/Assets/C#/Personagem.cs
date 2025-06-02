@@ -96,6 +96,3 @@ public class Personagem : MonoBehaviour
         return this.nome;
     }
 }
-    
-
-    
