@@ -16,7 +16,7 @@ public class MovimentoInimigo : MonoBehaviour
     private Rigidbody _rigidbody;
     private float velocidade;
 
-    public float raioDeVisao = 10;
+    public float raioDeVisao = 5;
     private bool naVisao = false;
     
     private SphereCollider _sphereCollider;
