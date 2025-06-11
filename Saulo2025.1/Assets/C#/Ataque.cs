@@ -9,7 +9,6 @@ public class Ataque : MonoBehaviour
     public int AtaqueDoInimigo()
     {
         ataque = inimigo.DanoDoInimigo();
-        Debug.Log("O Player levou " + Ataque + "de Dano Do Inimigo" );
         return ataque;
     }
 }

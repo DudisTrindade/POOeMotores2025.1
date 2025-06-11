@@ -16,7 +16,7 @@ public class MovimentoInimigo : MonoBehaviour
     private Rigidbody _rigidbody;
     private float velocidade;
 
-    public float raioDeVisao = 5;
+    public float raioDeVisao = 10;
     private bool naVisao = false;
     
     private SphereCollider _sphereCollider;
@@ -41,7 +41,7 @@ public class MovimentoInimigo : MonoBehaviour
       ataque = false;
         
       ataqueTime += Time.unscaledDeltaTime;
-      Debug.Log( ataqueTime );
+      //Debug.Log( ataqueTime );
       
         _sphereCollider.radius = raioDeVisao;
 

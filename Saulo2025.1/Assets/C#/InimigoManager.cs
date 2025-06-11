@@ -19,5 +19,6 @@ public class InimigoManager : MonoBehaviour
         {
             animator.SetTrigger("Ataque");  
         }
+
     }
 }
