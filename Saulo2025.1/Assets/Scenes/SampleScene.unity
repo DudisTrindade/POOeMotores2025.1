@@ -1344,7 +1344,7 @@ GameObject:
   - component: {fileID: 1092484779}
   - component: {fileID: 1092484781}
   m_Layer: 0
-  m_Name: Inimigo (cube)
+  m_Name: Inimigo
   m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1393,7 +1393,7 @@ MonoBehaviour:
   energia: 5
   forca_ataque: 20
   forca_do_pulo: 5
-  velocidade: 5
+  velocidade: 7
   numero_de_pes: 2
   numero_de_maos: 2
   armadura: 0
@@ -1503,7 +1503,7 @@ MonoBehaviour:
   ataqueObject: {fileID: 1893206637}
   andando: 0
   ataque: 0
-  velocidadeDoAtaque: 2
+  velocidadeDoAtaque: 4
   raioDeVisao: 8.67
   distanciaMinima: 1.5
 --- !u!135 &1092484779
@@ -1709,7 +1709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f11abbf23d4eb74d85fc1d4f65ce7c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  personagem: {fileID: 2039490261}
+  personagem: {fileID: 0}
 --- !u!54 &1265078558
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2799,7 +2799,7 @@ MonoBehaviour:
   energia: 300
   forca_ataque: 50
   forca_do_pulo: 3
-  velocidade: 5
+  velocidade: 8
   numero_de_pes: 2
   numero_de_maos: 2
 --- !u!54 &2039490262

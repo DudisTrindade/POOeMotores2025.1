@@ -88,7 +88,7 @@ public class MovimentoPlayer : MonoBehaviour
         
         transform.position = posicao;
         
-        
+      
 
     }
 }
