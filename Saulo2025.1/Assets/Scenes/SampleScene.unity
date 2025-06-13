@@ -1338,6 +1338,7 @@ GameObject:
   - component: {fileID: 1092484775}
   - component: {fileID: 1092484774}
   - component: {fileID: 1092484773}
+  - component: {fileID: 1092484782}
   - component: {fileID: 1092484772}
   - component: {fileID: 1092484778}
   - component: {fileID: 1092484780}
@@ -1553,6 +1554,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 695efed03602d9e43b820a4d96082474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1092484782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092484771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89017924221d09449593065a9f798a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nome: 
+  energia: 0
+  forca_ataque: 0
+  forca_do_pulo: 0
+  velocidade: 0
+  numero_de_pes: 0
+  numero_de_maos: 0
 --- !u!1 &1186750931
 GameObject:
   m_ObjectHideFlags: 0
@@ -1691,7 +1711,7 @@ Transform:
   m_GameObject: {fileID: 1265078555}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.09, y: 1.0203432, z: 1.72}
+  m_LocalPosition: {x: 0.09, y: 1.0203432, z: 0.7}
   m_LocalScale: {x: 1.0006672, y: 1.0519001, z: 1.0512328}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1756,8 +1776,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 0.7734901}
+  m_Center: {x: 0.000000010524406, y: 0, z: -0.11325497}
 --- !u!23 &1265078560
 MeshRenderer:
   m_ObjectHideFlags: 0
