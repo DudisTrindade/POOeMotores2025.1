@@ -14,6 +14,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/C#/AtaquePlayer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@1c27dfa04d8a/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@087c6d6dbb7d/Shaders/2D/Sprite-Lit-Default.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -126,6 +127,7 @@
       <workItem from="1749769162358" duration="28000" />
       <workItem from="1749780128381" duration="3536000" />
       <workItem from="1749878770221" duration="463000" />
+      <workItem from="1749910512561" duration="473000" />
     </task>
     <servers />
   </component>
